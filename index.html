@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلومات الأدوية</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #chat { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: scroll; display: flex; flex-direction: column; }
+        #userInput { width: 70%; }
+        #sendButton { width: 25%; }
+        .message { margin: 5px 0; padding: 10px; border-radius: 5px; }
+        .user { background-color: #e1f5fe; text-align: right; }
+        .bot { background-color: #c8e6c9; text-align: left; }
+    </style>
+</head>
+<body>
+
+    <h1>معلومات الأدوية</h1>
+    <div id="chat"></div>
+    <input type="text" id="userInput" placeholder="اكتب هنا...">
+    <button id="sendButton">إرسال</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
